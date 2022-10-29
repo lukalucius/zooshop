@@ -32,13 +32,13 @@ img {vertical-align: middle;/* width: 109px; *//* height: auto; */}
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+/* On hover, add a black background color with a little bit see-through 
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
-.text {
+ Caption text 
+  .text {
   color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
@@ -46,16 +46,7 @@ img {vertical-align: middle;/* width: 109px; *//* height: auto; */}
   bottom: 8px;
   width: 100%;
   text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
+} */
 
 /* The dots/bullets/indicators */
 .dot {
@@ -79,52 +70,47 @@ img {vertical-align: middle;/* width: 109px; *//* height: auto; */}
   animation-duration: 1.5s;
 }
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
 body {
     font-family: "BPG Mrgvlovani Caps", sans-serif;
 }
 
 h1 {
+    padding-top: 50px;
     font-size: 50px;
     text-align: center;
+    color: white
 }
 
 nav {
-    font-family: "BPG Mrgvlovani Caps", sans-serif;
-    border-top: 3px solid royalblue;
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 3px solid royalblue;
+  font-family: "BPG Mrgvlovani Caps", sans-serif;
+  border-top: 3px solid white;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid white;
 }
 
 nav a {
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    background: black;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 20px;
-    /* border: 1px solid violet; */
-    border-radius: 9px;
+      text-decoration: none;
+      font-size: 20px;
+      color: blue;
+      margin-top: 15px;
+      margin-bottom: 15;
+      background: #00FACD;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding: 10px;
+      /* border: 1px solid violet; */
+      border-radius: 9px
 }
 
 nav a:hover {
-    background: #764949; 
+    color: white; 
+    border: 5px dotted white;
     /* margin-top: 5px; */
      padding: 25px;
+     background-color: blue;
 }
-.head_img {
+/* .head_img {
     width: 700px;
 }
 
@@ -164,7 +150,7 @@ h2 {
     color: white;
     margin-bottom: 40px;
     background-color: white;
-}
+} */
 
 .product::before {
     content: url("https://backoffice.algoritmika.org/uploads/2021/03/paw-155322_1280%201_0_1614946877.png");
@@ -179,33 +165,33 @@ h2 {
     opacity: 1;
 }
 
-.principles {
+/* .principles {
     display: flex;
     border-top: 5px solid navy;
     border-bottom: 5px solid navy;
-    /* justify-content: space-between; */
-    /* width: 700px; */
-    /* margin: 0 30px; */
-    /* padding: 30px; */
+    justify-content: space-between;
+    width: 700px;
+    margin: 0 30px;
+    padding: 30px;
     padding: 30px 0px 30px 0px;
     width: 100%;
     text-align: center;
-    /* margin-left: 146px; */
+    margin-left: 146px;
 }
 .center {
     width: 100%;
     justify-content: center;
     margin-top: 30px;
-}
+} 
 
 .principle {
     width: 236px;
     margin-left: 95px;
-}
+} 
 
-.question-answer {
+/* .question-answer {
     margin: 30px;
-}
+}  
 
 .question {
     color: brown;
@@ -236,11 +222,27 @@ h2 {
     color: mediumblue;
     margin: 20px;
     width: 300px;
-}
+} */
 
 footer {
-    background-color: darkolivegreen;
-    color: white;
+    border-bottom: 5px solid #E6D205;
+    border-top: 5px solid #E6D205;
     padding: 10px;
     font-size: 20px;
+    margin-top: 100px;
+}
+
+p {
+  font-family: italic;
+  font-size: 20px;
+}
+
+header {
+  background-color: blue;
+}
+
+header img {
+  width: 150px;
+  height: 150px;
+  float: left;
 }
