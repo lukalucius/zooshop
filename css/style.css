@@ -279,7 +279,7 @@ main p {
   color: blue;
   border-top: 10px double green;
   border-bottom: 10px double green;
-  background-image: linear-gradient(#1AFFC6, #09E88F, #02FF6F);
+  background-image: linear-gradient(#0AFFC6, #09E88F, #02FF6F);
 }
 
 header {
